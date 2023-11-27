@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+form fieldset legend,h1{
+    font-family: 'Staatliches', sans-serif;
+    
+}
+
+
+
+body{
+    color: #EFEFEF;
+}
+
+.page{
+    margin: 130px ;
+    font-family: 'Poppins', sans-serif;
+    color: #535971;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    color:#4E4958;
+
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    height: 446px;
+
+
+    position: absolute;
+    top: 0;
+    left: 0px;
+
+
+    z-index: -1;
+    background: #535971;
+
+}
+
+.page{
+    width: 750px ;
+    margin: auto;
+    
+
+}
+
+header{
+    width: 375px;
+    margin-top: 140px;
+    margin-bottom: 58px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    color: #FFFFFF
+
+}
+
+h1{
+
+    font-size: 48px;
+    
+    font-weight: 400;
+    
+    }
+
+p{
+    font-size: 20px;
+    line-height: normal;
+}
+
+form{
+    background: #FFF;
+    padding: 64px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    border: 1px solid black;
+
+
+    
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    
+
+}
+
+fieldset legend{
+    border-bottom: 1px solid black;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+
+
+
+    width: 100%;
+    margin-bottom: 36px;
+
+    color: #535971;
+
+   
+    font-size: 24px;
+    
+
+
+}
+
+.input-wrapper input{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    padding: 15px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    border: 1px solid #E6E6F0;
+    margin-top: 8px;
+
+}
+
+.name-and-surnam {
+ display: flex;
+ gap:22px;
+ 
+ width: 300px;
+}
+
+.name-and-surnam input {
+    width: 300px;
+}
+
+.box3{
+    display: flex;
+}
+
+
+.date{
+    width: 300px;
+    margin-right: 30px;
+}
+
+
+.time {
+    display: flex;
+    gap: 10px;
+    width: 292px;
+}
+
+.box3 .time .input-wrapper{
+    width: 140px;
+}
+
+fieldset h3{
+ font-size: 20px;
+ font-family: 'Staatliches', sans-serif;
+ font-weight: normal;
+ margin-bottom: 8px;
+}
+
+ footer{
+    width: 750px;
+    height: 160px;
+
+    padding: 52.67px 71px 51.68px 71px ;
+
+    
+    background: #535971;
+    border-radius: 0 0 20px 20px;
+ }
+
+ .button{ 
+    border-radius: 20px;
+    background: #FF5374;
+
+    width: 608px;
+    height: 55.652px;
+    padding: 15px 40px;
+
+    
+    font-size: 20px;
+
+    font-family: 'Staatliches', sans-serif;
+    color: #FFF;
+
+    border: none;
+ }
+
+
+
